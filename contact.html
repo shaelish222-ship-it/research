@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GROUP 3 RESEARCH PAPER</title>
+    <style>
+    #qrcode canvas, #qrcode img {
+        width: 100% !important;   /* Makes it responsive to the container */
+        max-width: 400px;         /* Sets a ceiling for the size */
+        height: auto !important;
+    }
+    
+</style>
+
+<div id="qrcode"></div>
+</head>
+<body>
+    <H1>RESEARCH PROJECT</H1>
+    <H3>GROUP 3</H3>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+<div id="qrcode"></div>
+
+<script>
+  // Your HTML snippet or URL
+  var myData = "https://docs.google.com/document/d/1xMiLOwHgeKlduqruZ3U_W5LfQKw9b6uF/edit</h1>"; 
+  
+  new QRCode(document.getElementById("qrcode"), myData);
+</script>
+
+
+</body>
+</html>
